@@ -1,0 +1,17 @@
+<!doctype html>
+
+<html>
+<head>
+  <title>Health of Server</title>
+</head>
+{% block content %}
+<body>
+  <h1>Experiments had been done: </h1>
+  {% for fiblog in fiblogs %}
+  <h4>
+  	{{ fiblog.id ,fiblog.date_created.timestamp(), fiblog.target, fiblog.result }}
+  </h4>
+  {% endfor %}
+</body>
+{% endblock %}
+</html>

@@ -1,0 +1,7 @@
+setup.py
+src/findfib/PossibleCombOfFibNum.py
+src/findfib/__init__.py
+src/findfib.egg-info/PKG-INFO
+src/findfib.egg-info/SOURCES.txt
+src/findfib.egg-info/dependency_links.txt
+src/findfib.egg-info/top_level.txt
