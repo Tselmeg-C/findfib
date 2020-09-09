@@ -24,8 +24,8 @@ class Fiblogs(db.Model):
 # create routes
 @app.route("/")
 def home():
-    return "This web app is to find all possible combination of fibonacci numbers that sum up to a given integer. \
-    Please enter the number at the end of the URL bar using the format: /fib/number"
+	return "This web app is to find all possible combination of fibonacci numbers that sum up to a given integer. \
+	Please enter the number at the end of the URL bar using the format: /fib/number"
 
 @app.route('/fib/<int:number>') 
 def fib(number):
